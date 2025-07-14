@@ -70,7 +70,7 @@ Odtwarzacz ASAP oparty na SDL.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__make} asapconv lib asap-sdl \
